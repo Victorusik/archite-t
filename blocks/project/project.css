@@ -1,0 +1,30 @@
+.appear-anim-right{
+    animation: r .9s forwards;
+}
+
+.appear-anim-left{
+    animation: l .9s forwards;
+}
+
+@keyframes r {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}   
+
+@keyframes l {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
