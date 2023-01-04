@@ -1,0 +1,53 @@
+@import url(box/boxes.css);
+@import url(header/header.css);
+@import url(link/link.css);
+@import url(section/section.css);
+@import url(wrapper/wrapper.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url(btn-burger/btn-burger.css);
+@import url(menu-d/menu-d.css);
+@import url(flex/flex.css);
+@import url(margins_paddins/margins_padings.css);
+@import url(positions/positions.css);
+@import url(article/article.css);
+@import url(btn/btn.css);
+@import url(project/project.css);
+@import url(mediaQueries/media.css);
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e3ceb4;
+    overflow-x: hidden;
+}
+
+.op-0{
+    opacity: 0;
+}
+.d-none{
+    display: none;
+}
+
+.img{
+    max-width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.designer-description{
+    font-size: .9em;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+.aside{
+    text-decoration: none;
+    color: #797979;
+    font-size: .7em;
+    line-height: 1.5em;
+}
+
+.aside a{
+    text-decoration: none;
+    color: #797979;
+    font-size: .9em;
+}
