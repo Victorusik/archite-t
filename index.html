@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blocks/res.css">
+    <link rel="stylesheet" href="blocks/style.css">
+    <script defer src="blocks/btn-burger/btn-burger.js"></script>
+    <script defer src="blocks/btn/btn.js"></script>
+    <script defer src="blocks/project/project.js"></script>
+    <title>Architect</title>
+</head>
+
+<body class="bc">
+    <div class="wrapper">
+        <header class="header border-bottom">
+            <div class="box-1 border-right p-b">
+                <p class="header__text m-xl">architect</p>
+            </div>
+            <div class="box-1 p-b mob-none">
+                <h1 class="header__title m-xl">Interior <br> Furniture</h1>
+            </div>
+            <div class="box-1 border-left p-b mob-none lap-none">
+                <nav class="menu-d m-xl">
+                    <ul class="menu-d__list">
+                        <li class="menu-d__item"><a tabindex="0" class="link" href="">Search</a></li>
+                        <li class="menu-d__item"><a tabindex="0" class="link" href="pages/contact.html">Contact</a></li>
+                        <li class="menu-d__item"><a tabindex="0" class="link" href="pages/projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="box-1 flex-end p-b rel">
+                <nav class="menu-p m-xl abs top-left z-ind-l op-0">
+                    <ul class="menu-d__list flex-col">
+                        <li class="menu-d__item"><a tabindex="-1" class="link link_disabled" href="">Search</a></li>
+                        <li class="menu-d__item"><a tabindex="-1" class="link link_disabled" href="pages/contact.html">Contact</a></li>
+                        <li class="menu-d__item"><a tabindex="-1" class="link link_disabled" href="pages/projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+                <button class="btn-burger m-l" type="menu">
+                    <span class="btn-burger__icon"></span>
+                </button>
+            </div>
+        </header>
+        <main>
+            <section id="section-img" class="section border-bottom">
+                <div id="img-place" class="box-22">
+                    <img class="img" src="images/table.webp" alt="table">
+                </div>
+                <div class="box-1 border-left flex-col-end mob-order-1">
+                    <article class="article m-xl">
+                        <h2 class="article__title">
+                            Dining table
+                        </h2>
+                        <footer class="article__footer">
+                            <p class="article__text">karimoku case study <br> 2018</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="box-1 flex-col-space-between border-left mob-order-2">
+                    <h3 class="designer-description m-xl">Lead designer <br> Frederik Werner</h3>
+                    <aside class="aside m-xl"><a href="">See more about Frederik</a></aside>
+                </div>
+            </section>
+            <article id="article-bottom-text" class="article m-xl">
+                <p id="mob-bottom-text" class="article__text">Playing with the dimensions of the dining table, we've experimented with the balance
+                    between lightness and heaviness, making it paper-thin when seen from some angles
+                    and more robust from others, emphasizing the materials.</p>
+            </article>
+            <section class="section ">
+                <div class="box-1 flex-corner-left-bottom box-1_hover">
+                    <button id="left" class="btn m-b" type="button" disabled>
+                        <p class="btn__text">
+                            Previous project
+                        </p>
+                        <span class="btn__arrow-left"></span>
+                    </button>    
+                </div>
+                <div class="box-2 border-left bor">
+                    <article class="article m-xxl">
+                        <p id="bottom-text" class="article__text">
+                            Playing with the dimensions of the dining table, we've experimented with the balance
+                            between lightness and heaviness, making it paper-thin when seen from some angles
+                            and more robust from others, emphasizing the materials.
+                        </p>
+                    </article>
+                </div>
+                <div class="box-1 border-left  flex-corner-right-bottom box-1_hover">
+                    <button id="right" class="btn m-b" type="button">
+                        <p class="btn__text">
+                            Next project
+                        </p>
+                        <span class="btn__arrow-right"></span>
+                    </button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
+
+
