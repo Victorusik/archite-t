@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+}
+
+.footer__title{
+    font-size: 2.2em;
+    font-weight: 500;
+}
+
+.footer__text-info{
+    color: #797979;
+    font-size: .85em;
+    line-height: 1.7em;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: #797979;
+    font-size: .9em;
+    transition: color .4s;
+}
+
+.footer__link:hover{
+    color: #ff9b3d;
+}
+
+.box__footer-2{
+    flex-basis: 50%;
+}
