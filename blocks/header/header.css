@@ -1,0 +1,16 @@
+/* Шапка сайта */
+
+.header{
+    display: flex;
+}
+
+.header__text{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.header__title{
+    font-weight:500;
+    font-size: 2.6em;
+    line-height: 1.2em;
+}
