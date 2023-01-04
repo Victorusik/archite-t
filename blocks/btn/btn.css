@@ -1,0 +1,55 @@
+.btn{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    gap: 15px;
+}
+
+.btn__arrow-left{
+    order: -1;
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../icons/Vector.svg);
+    transition: transform .4s;
+}
+
+
+
+.btn__arrow-right{
+    width: 50px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../icons/Arrow1.svg);
+    transition: transform .4s;
+}
+
+
+.btn__text{
+    transition: color .4s;
+}
+
+.btn__text:hover{
+    color: #ff9b3d;
+}
+
+.btn_translate-rigth{
+    transform: translateX(12px);
+}
+
+.btn_translate-left{
+    transform: translateX(-12px);
+}
+
+
