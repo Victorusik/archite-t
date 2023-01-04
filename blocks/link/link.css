@@ -1,0 +1,22 @@
+.link{
+    text-decoration: none;
+    color: #797979;
+    font-size: 1.1em;
+    transition: color .4s;
+}
+
+.link-p{
+    text-decoration: none;
+    color: #797979;
+    font-size: 1.1em;
+    transition: color .4s;
+}
+
+.link_disabled{
+    pointer-events: none;
+}
+
+.link:hover{
+    color: #ff9b3d;
+}
+
