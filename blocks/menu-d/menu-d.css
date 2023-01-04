@@ -1,0 +1,40 @@
+/* Десктопное меню навигации */
+
+
+.menu-p{
+    transition: opacity .5s;
+    z-index: 100;
+}
+
+.menu-d{
+    transition: opacity .5s;
+}
+/* Стили блока menu-d */
+
+
+/* Элементы блока menu-d */
+
+.menu-d__list{
+    display: flex;
+    gap: 20px;
+}
+
+.anim-btn-1{
+    animation: btn-an1 .7s ease forwards;
+}
+
+.anim-btn-2{
+    animation: btn-an2 .5s ease reverse;
+}
+
+@keyframes btn-an1 {
+    0%{
+        transform: translateX(100%);
+    }
+}
+
+@keyframes btn-an2 {
+    0%{
+        transform: translateX(100%);
+    }
+}
