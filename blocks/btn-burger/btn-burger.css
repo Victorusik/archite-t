@@ -1,0 +1,39 @@
+.btn-burger {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+}
+
+
+.btn-burger:focus-visible{
+    outline: 3px black solid;
+}
+
+.btn-burger__icon{
+    width: inherit;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../icons/burger.svg);
+}
+
+.btn-burger__icon_active{
+    width: inherit;
+    height: 30px;
+    background-image: url(../../icons/crst.svg);
+}
+
+
+/*   Анимации  */
+
