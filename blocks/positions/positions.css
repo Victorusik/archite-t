@@ -1,0 +1,23 @@
+.abs{
+    position: absolute;
+}
+
+.rel{
+    position: relative;
+}
+
+.sticky{
+    position: sticky;
+}
+
+.top-left{
+    top: 0;
+    left: 0;
+}
+.z-ind-l{
+    z-index: -100;
+}
+
+.z-ind-t{
+    z-index: 100;
+}
