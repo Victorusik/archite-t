@@ -1,0 +1,50 @@
+/* margin */
+
+.m-2{
+    margin: 2em;
+}
+
+.m-l{
+    margin: 40px 25px;
+}
+
+.m-xl{
+    margin: 55px 30px;
+}
+
+.m-b{
+    margin-bottom: 20%;
+}
+
+.m-bb{
+    margin-bottom: 7em;
+}
+
+.m-xxl{
+    margin: 9em 2em 2em;
+}
+
+.m-b{
+    margin: 0 3em 4em;
+}
+
+.m-t{
+    margin-top: 7em;
+}
+
+.mob-m-b{
+    margin-bottom: 0em;
+}
+
+/* padding */
+
+.p-b{
+    padding-bottom: 10%;
+}
+
+/*heigth*/
+
+.h-100{
+    height: 100%;
+}
+
